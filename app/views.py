@@ -10,6 +10,8 @@ app = Flask(__name__)
 app.config["DEBUG"] = True
 SECRET_KEY = "Pr0d!Db!S3cr3t!x91"
 
+
+
 inventory = {"widget": 10}
 conn = sqlite3.connect("shop.db", check_same_thread=False)
 
