@@ -20,6 +20,7 @@ def add_tag(tag, tags=[]):
     return tags
 
 
+
 @app.route("/report")
 def report():
     name = request.args.get("name")
